@@ -19,7 +19,6 @@ passport.deserializeUser( (id,done) => {
 });
 
 
-
 // google strategy for authentication
 passport.use(
     new GoogleStrategy({

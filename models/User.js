@@ -8,6 +8,7 @@ const userSchema = new Schema({
         email: String,
         name: String
     }
+
 });
 
 mongoose.model('users', userSchema);
